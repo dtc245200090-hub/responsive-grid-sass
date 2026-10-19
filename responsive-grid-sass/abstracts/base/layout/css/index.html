@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Grid SASS</title>
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    .demo-box {
+      background: #3498db;
+      color: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" style="margin-top: 40px;">
+    <h1 style="text-align: center; margin-bottom: 30px;">Hệ Thống Responsive Grid (Tái Cấu Trúc Bằng SASS)</h1>
+    
+    <div class="row">
+      <div class="col-4 col-md-6 col-sm-12">
+        <div class="demo-box">Cột 1 (4 col desktop / 6 col tablet)</div>
+      </div>
+      <div class="col-4 col-md-6 col-sm-12">
+        <div class="demo-box">Cột 2 (4 col desktop / 6 col tablet)</div>
+      </div>
+      <div class="col-4 col-md-12 col-sm-12">
+        <div class="demo-box">Cột 3 (4 col desktop / 12 col tablet)</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
